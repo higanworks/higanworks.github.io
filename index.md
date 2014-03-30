@@ -1,18 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="jp" lang="jp">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>HiganWorks, LLC.</title>
-</head>
-<body>
-<div class="container">
-  <div class="content">
-  <h1><script type="text/javascript" language="javascript">
+---
+layout: default
+---
+<div class="content">
+<h1><script type="text/javascript" language="javascript">
 <!--
 document.write (location.href);
 // -->
 </script></h1>
+
 <p><a href="https://github.com/higanworks">HiganWorks LLC Github Repos.</a></p>
 
   <h2>Members</h2>
@@ -33,10 +28,5 @@ document.write (location.href);
   <ul>
     <li><a href='http://opsrock.in/'>OpsRock.in</a> : AWS OpsWorks などを使ったインフラの自動化とChefの導入コンサルティング＆サポート、レシピの開発。</li>    <li><a href="http://www.facebook.com/pages/Giraffi-DevOps/259807017381498">Giraffi</a></li>
     <li><a href="hhttp://www.facebook.com/pages/Team-Shinobi/146001442153994">Team Shinobi(as known as NodeNinja.)</a></li>
-  <div class="footer">
   </ul>
-  </div>
- </div>
 </div>
-</body>
-</html>
