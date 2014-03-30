@@ -1,3 +1,2 @@
 ---
-markdonw: kramdown
-markdown_ext:  markdown,md
+markdown: kramdown
