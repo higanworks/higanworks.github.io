@@ -1,5 +1,7 @@
 ---
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 
 sass:
   style: expanded  # nested|expanded|compact|compressed
