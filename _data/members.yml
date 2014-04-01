@@ -1,0 +1,18 @@
+- name: 松本亮介
+  yomi: MATSUMOTO Ryosuke
+  role: 最高技術責任者(CTO)、業務執行社員
+  github: matsumoto-r
+  image_url: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c34.34.431.431/s160x160/180499_101093226637278_7407071_n.jpg
+  links:
+    - ['松本亮介の研究・開発業績ページ', 'http://research.matsumoto-r.jp/']
+
+- name: 澤登亨彦
+  yomi: SAWANOBORI Yukihiko
+  image_url: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash1/t1.0-1/c59.31.383.383/s160x160/1044533_530040700383067_789164362_n.jpg
+  role: 最高経営責任者(CEO)、業務執行社員
+  github: sawanoboly
+  links:
+    - [ 'sawanoboly.net(Blog)', 'http://www.sawanoboly.net/']
+    - [ 'sawanoboly - Qiita', 'http://qiita.com/sawanoboly' ]
+    - [ 'Yukihiko Sawanobori(Facebook)', 'https://www.facebook.com/yukihiko.sawanobori' ]
+    - [ 'Twitter', 'https://twitter.com/sawanoboly' ]

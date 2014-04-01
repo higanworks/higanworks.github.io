@@ -11,3 +11,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #tagline {
 }
+
+#footer {
+  text-align: center;
+}
+
+.one-third.columns {
+  width: 240px;
+}

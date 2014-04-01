@@ -20,30 +20,45 @@ layout: default
 
 <div class="sixteen columns">
 [HiganWorks LLC Github Repos.](https://github.com/orgs/higanworks "HiganWorks LLC")
+</div>
+
+<div class="sixteen columns">
+<hr />
+</div>
 
 
+<div class="one-third columns">
 ## Members
+</div>
 
-### 松本亮介 (MATSUMOTO Ryosuke)
+<div class="two-thirds columns">
 
-最高技術責任者(CTO)、業務執行社員
+{% for member in site.data.members %}
 
-- [松本亮介の研究・開発業績ページ](http://research.matsumoto-r.jp/ "松本亮介の研究・開発業績ページ")
+<h3>{{ member.name }}({{ member.yomi }})</h3>
+<a href="https://github.com/{{ member.github }}" target="_blank">
+  <img src="{{ member.image_url }}" alt="{{ member.yomi }}">
+</a>
+<h5>{{ member.role }}</h5>
 
-### 澤登亨彦 (SAWANOBORI Yukihiko)
+<ul>
+  <li>About {{ member.yomi }}
+    <ul>
+    {% for link in member.links %}
+      <li><a href="{{ link[1] }}" target="_blank">{{ link[0] }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+</ul>
+<hr />
+{% endfor %}
 
-最高経営責任者(CEO)、業務執行社員
+</div>
 
-- [sawanoboly.net(Blog)](http://www.sawanoboly.net/ "sawanoboly.net")
-- [sawanoboly - Qiita](http://qiita.com/sawanoboly "sawanoboly - Qiita")
-- [Yukihiko Sawanobori(Facebook)](https://www.facebook.com/yukihiko.sawanobori "Yukihiko Sawanobori")
-- [Twitter](https://twitter.com/sawanoboly)
+<div class="sixteen columns">
+<hr />
+</div>
 
-
-## Works
-
-- [Opsrock｜AWS OpsWorks, Chef を使用した自動化システムインテグレーション](http://opsrock.in/ "Opsrock｜AWS OpsWorks, Opscode Chef を使用した自動化システムインテグレーション")
-- [Team Shinobi(Facebook Pages)](https://www.facebook.com/pages/Team-Shinobi/146001442153994 "Team Shinobi")
-- [Giraffi DevOps(Facebook Pages)](https://www.facebook.com/giraffi.devops "Giraffi DevOps")
-
+<div id="footer" class="sixteen columns">
+<p>© 2011-2014 HiganWorks LLC</p>
 </div>
