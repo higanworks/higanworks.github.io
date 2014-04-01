@@ -2,8 +2,23 @@
 layout: default
 ---
 
-# HiganWorks LLC
+<div class="four columns">
+![HiganWorks LLC](/assets/images/hw_logo_400.png)
+</div>
 
+<div class="eight columns offset-by-four">
+# HiganWorks LLC
+{: id="title" .remove-bottom }
+
+##### put tagline here.
+{: id="tagline" }
+</div>
+
+<div class="sixteen columns">
+<hr />
+</div>
+
+<div class="sixteen columns">
 [HiganWorks LLC Github Repos.](https://github.com/orgs/higanworks "HiganWorks LLC")
 
 
@@ -30,3 +45,5 @@ layout: default
 - [Opsrock｜AWS OpsWorks, Chef を使用した自動化システムインテグレーション](http://opsrock.in/ "Opsrock｜AWS OpsWorks, Opscode Chef を使用した自動化システムインテグレーション")
 - [Team Shinobi(Facebook Pages)](https://www.facebook.com/pages/Team-Shinobi/146001442153994 "Team Shinobi")
 - [Giraffi DevOps(Facebook Pages)](https://www.facebook.com/giraffi.devops "Giraffi DevOps")
+
+</div>

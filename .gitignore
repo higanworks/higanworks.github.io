@@ -1,2 +1,5 @@
 *.sw[a-z]
 _site/
+.rvmrc
+.sass-cache/
+Skeleton/
