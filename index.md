@@ -45,7 +45,14 @@ layout: default
 <a href="https://github.com/{{ member.github }}" target="_blank">
   <img src="{{ member.image_url }}" alt="{{ member.yomi }}">
 </a>
-<h5>{{ member.role }}</h5>
+
+<ul>
+  <li><h5>{{ member.role }}</h5>
+    <ul>
+      <li><h6>{{ member.profile }}</h6></li>
+    </ul>
+  </li>
+</ul>
 
 <ul>
   <li>About {{ member.yomi }}

@@ -3,6 +3,7 @@
   role: 最高技術責任者(CTO)、業務執行社員
   github: matsumoto-r
   image_url: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c34.34.431.431/s160x160/180499_101093226637278_7407071_n.jpg
+  profile: 学部卒業後、ホスティング系企業で3年間大規模ホスティングサービスの運用・運用設計・OSやミドルウェアの研究・開発に従事。企業での経験が認められ、京都大学大学院情報学研究科において修士課程を飛ばして博士課程から入学。OS・Middleware・HTTPに関する研究に従事。特にWebサーバのセキュリティ・リソース管理・運用技術改善・パフォーマンス・大規模対応や次世代HTTPプロトコルに興味を持つ。mod_mruby、ngx_mruby、Trusterd HTTP/2 Web Serverの作者。2013年、IPSJ IOTS2013 優秀論文賞、2014年、第6回フクオカRuby大賞 優秀賞、第9回日本OSS奨励賞 受賞。
   links:
     - ['松本亮介の研究・開発業績ページ', 'http://research.matsumoto-r.jp/']
 
