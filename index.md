@@ -18,8 +18,14 @@ layout: default
 <hr />
 </div>
 
-<div class="sixteen columns">
-[HiganWorks LLC Github Repos.](https://github.com/orgs/higanworks "HiganWorks LLC")
+<div class="one-third columns" style="float: right">
+## Github Repositories
+</div>
+
+<div id="gitrepos" class="two-thirds columns" style="text-align: right">
+{% for github in site.data.githubs %}
+- [{{ github.desc }}]({{ github.url }})
+{% endfor %}
 </div>
 
 <div class="sixteen columns">
