@@ -65,6 +65,27 @@ layout: default
 <hr />
 </div>
 
+<div class="one-third columns" style="float: right">
+## Activities
+</div>
+
+<div id="acts" class="two-thirds columns">
+{% for act in site.data.activities %}
+<div class="ten columns">
+### {{ act.name }}
+{{ act.desc }}
+
+[{{ act.url }}]({{ act.url }})
+<hr />
+</div>
+{% endfor %}
+</div>
+
+
+<div class="sixteen columns">
+<hr />
+</div>
+
 <div id="footer" class="sixteen columns">
 <p>© 2011-2014 HiganWorks LLC</p>
 </div>
