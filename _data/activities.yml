@@ -13,3 +13,7 @@
 - name: ngx_mruby
   desc: nginxの機能をmrubyで高速かつ省メモリに拡張可能なnginxモジュールの開発。
   url: http://ngx.mruby.org/
+
+- name: Chef Meetup Kansai
+  desc: システム管理ツールのChefを中心に、Infrastructure as CodeやIT自動化の話をするコミュニティ。
+  url: http://chef-meetup-kansai.doorkeeper.jp/
