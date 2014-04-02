@@ -46,17 +46,24 @@ layout: default
   <img src="{{ member.image_url }}" alt="{{ member.yomi }}">
 </a>
 
-<ul>
-  <li><h5>{{ member.role }}</h5>
-  </li>
-</ul>
+##### {{ member.role }}
+{: style="padding: 0 0 10px 0;" }
+
 {{ member.profile }}
+{: style="padding: 0 0 0 1em;" }
 
 <ul>
   <li>About {{ member.yomi }}
     <ul>
     {% for link in member.links %}
       <li><a href="{{ link[1] }}" target="_blank">{{ link[0] }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+  <li>Contribs.
+    <ul>
+    {% for contrib in member.contribs %}
+      <li><a href="{{ contrib[1] }}" target="_blank">{{ contrib[0] }}</a></li>
     {% endfor %}
     </ul>
   </li>
