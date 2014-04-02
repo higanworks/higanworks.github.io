@@ -73,7 +73,7 @@ layout: default
 {% for act in site.data.activities %}
 <div class="ten columns">
 ### {{ act.name }}
-{{ act.desc }}
+<p class="actsdesc">{{ act.desc }}</p>
 
 [{{ act.url }}]({{ act.url }})
 <hr />

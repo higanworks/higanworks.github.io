@@ -1,5 +1,5 @@
 - name: OpsRock
-  desc: Opsrock｜AWS OpsWorks, Chefの構成管理ツールやServerSpec等のテストツールを使用した自動化システムインテグレーション支援サービス
+  desc: OpsRock｜AWS OpsWorks, Chefの構成管理ツールやServerSpec等のテストツールを使用した自動化システムインテグレーション支援サービス
   url: http://opsrock.in/
 
 - name: HTTP/2 Web Server scripting with mruby
