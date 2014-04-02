@@ -37,7 +37,7 @@ layout: default
 ## Members
 </div>
 
-<div class="two-thirds columns">
+<div class="two-thirds columns memberbox">
 
 {% for member in site.data.members %}
 
@@ -48,11 +48,9 @@ layout: default
 
 <ul>
   <li><h5>{{ member.role }}</h5>
-    <ul>
-      <li><h6>{{ member.profile }}</h6></li>
-    </ul>
   </li>
 </ul>
+{{ member.profile }}
 
 <ul>
   <li>About {{ member.yomi }}
