@@ -37,7 +37,7 @@ layout: default
 ## Members
 </div>
 
-<div class="two-thirds columns">
+<div class="two-thirds columns memberbox">
 
 {% for member in site.data.members %}
 
@@ -45,7 +45,12 @@ layout: default
 <a href="https://github.com/{{ member.github }}" target="_blank">
   <img src="{{ member.image_url }}" alt="{{ member.yomi }}">
 </a>
-<h5>{{ member.role }}</h5>
+
+<ul>
+  <li><h5>{{ member.role }}</h5>
+  </li>
+</ul>
+{{ member.profile }}
 
 <ul>
   <li>About {{ member.yomi }}
