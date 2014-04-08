@@ -49,8 +49,11 @@ layout: default
 ##### {{ member.role }}
 {: style="padding: 0 0 10px 0;" }
 
-{{ member.profile }}
-{: style="padding: 0 0 0 1em;" }
+<p style="padding: 0 0 0 1em;">
+{% for p_line in member.profile %}
+{{ p_line }}<br />
+{% endfor %}
+</p>
 
 <ul>
   <li>About {{ member.yomi }}
