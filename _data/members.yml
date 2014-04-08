@@ -8,6 +8,19 @@
     - ['松本亮介の研究・開発業績ページ', 'http://research.matsumoto-r.jp/']
   contribs:
     - ['mruby Project', 'https://github.com/mruby' ]
+  works:
+    - OSSを利用した運用管理システムの設計・構築及び運用技術コンサルティング
+    - OSSを利用したインターネットサービスシステムの設計・構築及び運用技術コンサルティング
+    - 大規模Webホスティングサービス全般のコンサルティング
+    - Webホスティングサービスのセキュリティ・リソース制御・運用技術コンサルティング
+    - Webサーバの機能拡張コンサルティング（Apacheモジュール・mod_mruby・ngx_mruby）
+    - 組込みスクリプト言語mrubyのアプリケーション組込みの設計・実装・コンサルティング
+    - Test-Driven Infrastructure及びImmutable Infrastructureに関するコンサルティング
+    - 各種セミナー・シンポジウム・フォーラムでの講演やパネルディスカッション
+    - 技術者の学術論文執筆サポート（mod_mrubyやserverspec論文等）
+    - OS・Middlewareに関する共同研究
+    - 学術研究会における研究発表
+    - 次世代Webサーバの研究開発
 
 - name: 澤登亨彦
   yomi: SAWANOBORI Yukihiko

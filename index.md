@@ -60,6 +60,13 @@ layout: default
     {% endfor %}
     </ul>
   </li>
+  <li>担当事業内容
+    <ul>
+    {% for work in member.works %}
+      <li>- {{ work }}</li>
+    {% endfor %}
+    </ul>
+  </li>
   <li>Contribs.
     <ul>
     {% for contrib in member.contribs %}
