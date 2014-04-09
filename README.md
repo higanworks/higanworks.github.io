@@ -1,5 +1,7 @@
 # [HiganWorks LLC.](http://higanworks.com/ "HiganWorks LLC.")
 
+[![wercker status](https://app.wercker.com/status/43cfa8b075ec1c22929b574c7c18db43/m/ "wercker status")](https://app.wercker.com/project/bykey/43cfa8b075ec1c22929b574c7c18db43)
+
 ## Requirement
 
 - Ruby
