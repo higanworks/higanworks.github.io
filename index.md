@@ -34,7 +34,7 @@ layout: default
 
 
 <div class="one-third columns">
-## Members
+## Member
 </div>
 
 <div class="two-thirds columns memberbox">
@@ -60,13 +60,6 @@ layout: default
     <ul>
     {% for link in member.links %}
       <li><a href="{{ link[1] }}" target="_blank">{{ link[0] }}</a></li>
-    {% endfor %}
-    </ul>
-  </li>
-  <li>担当事業内容
-    <ul>
-    {% for work in member.works %}
-      <li>- {{ work }}</li>
     {% endfor %}
     </ul>
   </li>

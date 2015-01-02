@@ -2,18 +2,6 @@
   desc: OpsRock｜AWS OpsWorks, Chefの構成管理ツールやServerSpec等のテストツールを使用した自動化システムインテグレーション支援サービス
   url: http://opsrock.in/
 
-- name: Trusterd HTTP/2 Web Server scripting with mruby
-  desc: mrubyで設定を書けたり、振る舞いをプログラムブルに制御できるHTTP/2プロトコル用の高速Webサーバの開発。
-  url: http://matsumoto-r.github.io/trusterd/
-
-- name: mod_mruby
-  desc: Apache httpdの機能をmrubyで高速かつ省メモリに拡張可能なApacheモジュールの開発。
-  url: http://mod.mruby.org/
-
-- name: ngx_mruby
-  desc: nginxの機能をmrubyで高速かつ省メモリに拡張可能なnginxモジュールの開発。
-  url: http://ngx.mruby.org/
-
 - name: Chef Meetup Kansai
   desc: システム管理ツールのChefを中心に、Infrastructure as CodeやIT自動化の話をするコミュニティ。
   url: http://chef-meetup-kansai.doorkeeper.jp/
