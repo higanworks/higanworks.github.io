@@ -3,3 +3,6 @@ _site/
 .rvmrc
 .sass-cache/
 Skeleton/
+vendor/
+bin/
+.bundle/

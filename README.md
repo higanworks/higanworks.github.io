@@ -15,7 +15,7 @@
 $ bundle
 ```
 
-### serve by jekyll and watch updates 
+### serve by jekyll and watch updates
 
 ```
 $ jekyll serve -w
@@ -32,4 +32,4 @@ Open `http://localhost:4000`by web browser.
 
 ----
 
-Copylight 2011-2014 HiganWorks LLC.
+Copylight 2011-2017 HiganWorks LLC.

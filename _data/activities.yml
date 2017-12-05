@@ -1,7 +1,7 @@
+- name: CloudInfra Podcast.
+  desc: クラウドサービスや、ITインフラの話題をするPodCastおよびそのコミュニティです。
+  url: https://cloudinfra.audio
+
 - name: OpsRock
   desc: OpsRock｜AWS OpsWorks, Chefの構成管理ツールやServerSpec等のテストツールを使用した自動化システムインテグレーション支援サービス
   url: http://opsrock.in/
-
-- name: Chef Meetup Kansai
-  desc: システム管理ツールのChefを中心に、Infrastructure as CodeやIT自動化の話をするコミュニティ。
-  url: http://chef-meetup-kansai.doorkeeper.jp/
