@@ -4,6 +4,7 @@ build:
     # The steps that will be executed on build
     # See the Ruby section on the wercker devcenter:
     # http://devcenter.wercker.com/articles/languages/ruby.html
+    packages: ca-certificates
     steps:
         # TODO: migrate new workflow...
         - rvm-use:
