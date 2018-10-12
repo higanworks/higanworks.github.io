@@ -1,4 +1,4 @@
-box: wercker/ruby
+box: ruby:2.5
 # Build definition
 build:
     # The steps that will be executed on build
