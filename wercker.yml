@@ -1,31 +1,14 @@
-box: wercker/rvm
+box: ruby:2.5
 # Build definition
 build:
-    # The steps that will be executed on build
-    # See the Ruby section on the wercker devcenter:
-    # http://devcenter.wercker.com/articles/languages/ruby.html
-    packages: ca-certificates
-    steps:
-        # TODO: migrate new workflow...
-        - rvm-use:
-              version: 2.3.1
-
-        # A step that executes `bundle install` command
-        - script:
-           name: update-bundler
-           code: gem install bundler --no-ri --no-rdoc
-        - bundle-install
-
-        # A custom script step, name value is used in the UI
-        # and the code value contains the command that get executed
-        - script:
-            name: echo ruby information
-            code: |
-                echo "ruby version $(ruby --version) running"
-                echo "from location $(which ruby)"
-                echo -p "gem list: $(gem list)"
-
-        # Add more steps here:
-        - script:
-           name: jekyll
-           code: bundle exec jekyll build
+  steps:
+    - bundle-install
+    - script:
+        name: echo ruby information
+        code: |
+            echo "ruby version $(ruby --version) running"
+            echo "from location $(which ruby)"
+            echo -p "gem list: $(gem list)"
+    - script:
+        name: jekyll
+        code: bundle exec jekyll build
