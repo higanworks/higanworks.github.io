@@ -5,12 +5,11 @@ build:
     # See the Ruby section on the wercker devcenter:
     # http://devcenter.wercker.com/articles/languages/ruby.html
     steps:
-        # Uncomment this to force RVM to use a specific Ruby version
         - script:
            name: rvm-get-stable
            code: |
-             rvm get stable
-             rvm reload
+                rvm get stable
+                rvm reload
         - rvm-use:
               version: 2.5.1
 
