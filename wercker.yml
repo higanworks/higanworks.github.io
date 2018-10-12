@@ -5,13 +5,9 @@ build:
     # See the Ruby section on the wercker devcenter:
     # http://devcenter.wercker.com/articles/languages/ruby.html
     steps:
-        - script:
-           name: rvm-get-stable
-           code: |
-                rvm get stable
-                rvm reload
+        # TODO: migrate new workflow...
         - rvm-use:
-              version: 2.5.1
+              version: 2.3.1
 
         # A step that executes `bundle install` command
         - bundle-install
