@@ -2,6 +2,9 @@ box: ruby:2.5
 # Build definition
 build:
   steps:
+    - script:
+        name: bundler
+        code: gem install bundler -N
     - bundle-install
     - script:
         name: echo ruby information
@@ -9,9 +12,6 @@ build:
             echo "ruby version $(ruby --version) running"
             echo "from location $(which ruby)"
             echo -p "gem list: $(gem list)"
-    - script:
-        name: bundler
-        code: gem install bundler -N
     - script:
         name: jekyll
         code: bundle exec jekyll build
