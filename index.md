@@ -102,5 +102,5 @@ layout: default
 </div>
 
 <div id="footer" class="sixteen columns">
-<p>© 2011-2020 HiganWorks LLC</p>
+<p>© 2011-2021 HiganWorks LLC</p>
 </div>
